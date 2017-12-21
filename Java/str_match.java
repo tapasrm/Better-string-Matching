@@ -17,8 +17,8 @@ class str_match {
                 k++;             
                 if(k==m) {         // 4. On each iteration, size of M[] and Pattern is compared, if equal 
                     System.out.println("Pattern found at "+((i-m)+1)); // pattern found at i-m.
-                    i--;           // 5. Clear the buffer array.
-                    k=0;
+                    i--;           
+                    k=0;	   // 5. Clear the buffer array.
                 }
                 if(j>(m-1) || i>(n-1))  // ** To avoid ArrayIndexOutOfBounds Exception in the entry control.
                     break;
